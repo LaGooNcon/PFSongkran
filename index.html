@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Songrkan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bda97bf43e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav id = "nav">
+                <img src="pic/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contributions">Contributions</a></li>
+                    <li><a href="#Work-Experience">Work Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Nam Songkran ,</p>
+                <h1><span id="content1">Who Wants To Be </span><span id="content2">Robotics and Automation Engineering </span></h1>
+            </div>
+        </div>
+    </div>
+    <!------------------about---------------->  
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic/mrcaabb.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>สวัสดีครับ ผมนายสงกรานต์ ปราณีบุตร ชื่อเล่นน้ำ อายุ 17 ปี กำลังศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 6
+                    แผนการเรียนวิทยาศาสตร์-คณิตศาสตร์ ห้องเรียนพิเศษวิทยาการคอมพิวเตอร์ งานอดิเรกคือ ฝึกเขียนโปรแกรม
+                    เล่นคอมพิวเตอร์ อ่านหนังสือ เล่นบาสเกตบอล และฟังเพลง</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>Programming Languages</span><br>C, Python, HTML & CSS</br></li>
+                            <li><span>Microcontroller</span><br>Arduino, Microbit & Ipst</br></li>
+                            <li><span>Software Skills</span><br>Visual Studio Code</br>Photoshop, Premiere Pro, SketchUp, Shapr3D</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>อนุบาล 1 - ประถมศึกษา 1</span><br>โรงเรียนอนุบาลบ้านจันทร์</br></li>
+                            <li><span>ประถมศึกษาปีที่ 2-6</span><br>โรงเรียนดาราสมุทรสระแก้ว</br></li>
+                            <li><span>มัธยมศึกษาปีที่ 1-3</span><br>โรงเรียนมารีวิทยากบินบุรี</br></li>
+                            <li><span>มัธยมศึกษาปีที่ 4-6</span><br>โรงเรียนสระแก้ว<span class="gpax"> GPAX : 3.03</span></br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------Contributions------------------>
+
+<div id="contributions">
+    <div class="container">
+        <h1 class="sub-title">My Contributions</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pic/work-1.png">
+                <div class="layer">
+                    <h3>Maker Robotics Challenge 2022</h3>
+                    <p>การแข่งขันออกแบบหุ่นยนต์เพื่อนำมาต่อสู้<br>ด้วยกลยุกธ์ต่างๆ</br></p>
+                </div>
+            </div>
+            <div class="work">
+                 <img src="pic/work-2.png">
+                <div class="layer">
+                    <h3>ศิลปหัตกรรม ครั้งที่ 70</h3>
+                    <p>การแข่งขันออกแบบหุ่นยนต์ประเภทผสม ชั้น ม.4-6 <br>ระดับชาติ</br></p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pic/work-3.png">
+                <div class="layer">
+                    <h3>ศิลปหัตกรรม ครั้งที่ 70</h3>
+                    <p>การแข่งขันออกแบบหุ่นยนต์ประเภทอัตโนมัติระดับสูง<br>ระดับเขตการศึกษา</br></p>
+                </div>
+            </div>
+        </div>
+        <a href="contributions.html" class="btn">See more</a>
+    </div>
+
+</div>
+<!------------------Work Experience---------------->
+<div id="Work-Experience">
+    <div class="container">
+        <h1 class="sub-title">My Work Experience</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="workex/workex-2.png">
+                <div class="layer">
+                    <div class="layer-exper">
+                        <h3>เป็นประธานชมรมหุ่นยนต์ Robotics SK<br>โรงเรียนสระแก้ว</br></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="workex/workex-1.png">
+                <div class="layer">
+                    <div class="layer-exper">
+                        <h3>คณะกรรมการสภานักเรียนโรงเรียนสระแก้ว</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="workex/workex-3.png">
+                <div class="layer">
+                    <div class="layer-exper">
+                        <h3>นำเสนอผลการเนื่องด้วยงานเลื่อนวิทยฐานะ</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="workexperience.html" class="btn">See more</a>
+    </div>
+</div>
+<!------------------Contact---------------->
+<div id="contact">
+    <footer>
+        <p>Songkran Pranibut</p>
+        <p>For want to know me more - please click on the link below</p>
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100022313709823"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/song_9g/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:songkran50507@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p>CopyRight By Songkran Pranibut</p>
+    </footer>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    /*
+    var nav = document.getElementById("nav")
+    window.onscroll = function(){
+        if(window.pageYOffset > 100){
+            nav.style.position="fixed";
+            nav.style.top = 0;
+            nav.style.backgroundColor = "background:#000000;"
+        }
+        else{
+            nav.style.position="relative";
+        }
+    }
+    */
+</script>
+</body>
+</html>
